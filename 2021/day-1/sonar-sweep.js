@@ -2,7 +2,7 @@ fs = require('fs');
 
 // For the local input
 const file = fs
-  .readFileSync('./day-1.1-input.txt')
+  .readFileSync('./input.txt')
   .toString('utf-8')
   .split('\r\n');
 
